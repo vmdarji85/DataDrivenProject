@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter Suite" parallel="tests">
+	<test name="Login Parameter Test" >
+	<parameter name="browser" value="chrome"></parameter>
+			<classes>
+			<class name="com.w2a.rough.testNGsample"></class>
+		</classes>
+
+	</test>
+	
+	<test name="Login Parameter Test">
+	<parameter name="browser" value="firefox"></parameter>
+			<classes>
+			<class name="com.w2a.rough.testNGsample"></class>
+		</classes>
+
+	</test>
+	
+
+
+</suite>
